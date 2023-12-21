@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlexandreColetti</title>
+    <title>Portfólio Alexandre Coletti</title>
+    
+    <!--Google Fonts: https://fonts.google.com/-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Dev Ico Fonts: https://devicon.dev/-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">    
+          
+
+    <!--Css do projeto-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Alexandre Coletti</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Alexandre Coletti</h2>
+            <img id="bio-image" src="img/alex2.jpeg" alt="Alexandre Coletti">
+            <p>Olá, meu nome é Alexandre. E sou estudante para <span class="highlight">desenvolvedor fullstack</span> e também <span class="highlight">programador PLSQL</span>.</p>
+            <p id="welcome-text">Seja bem vindo.</p>
+            <ul id="social-container">
+                <li>
+                    <a href="https://www.linkedin.com/in/alexandre-coletti/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:eu_axil@yahoo.com.br">eu_axil@yahoo.com.br</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Alexandre Coletti</h1>
+            <p id="title"><span class="highlight">Desenvolvedor fullstack e programador PLSQL.</span></p>
+            <p class="description">Sou um desenvolvedorestudante em programação Full Stack com enfase principalmente em C# com React.</p>
+            <p id="title"><span class="highlight">Programador PLSQL.</span></p>
+            <p class="description">Sou um desenvolvedor PLSQl, com 6 anos de experiencia em mercado, já tendo desenvolvido e aplicado a produção diversos objetos e processos em banco de dados. Atuando principalmente com banco Oracle.</p>
+            <a href="https://github.com/AlexCol" id="btn-projects" target="_blank"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas skills</h2>
+            <p class="description">Tecnologias que conheço:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-End</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>                    
+                    <i class="devicon-typescript-plain colored"></i>
+                    <i class="devicon-react-original colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-End</p>
+                    <i class="devicon-csharp-plain colored"></i>          
+                    <i class="devicon-java-plain colored"></i>
+                </div>                
+                <div class="skills-box">
+                    <p class="skills-title">Banco de Dados</p>
+                    <i class="devicon-oracle-original colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>     
+                <div class="skills-box">
+                    <p class="skills-title">FrameWorks</p>                    
+                    <i class="devicon-dotnetcore-plain colored"></i>
+                    <i class="devicon-react-original colored"></i>
+                </div>                 
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-docker-plain colored"></i>
+                </div>
+            </div>
+
+        </section>
+    </main>
+          
+          
+          
+
+    <!--Ion Icons: https://ionic.io/ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
